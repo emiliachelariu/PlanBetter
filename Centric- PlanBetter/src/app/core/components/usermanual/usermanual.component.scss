@@ -1,0 +1,228 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Inter);
+
+.img1{
+  /* Logo */
+position: fixed;
+width: 5%;
+height: 56px;
+left: 0px;
+top: 1.5%;
+}
+
+h6{
+  /* Welcome back. Login with your data that you entered during your registration. */
+
+position: fixed;
+width: 39.7%;
+height: 53px;
+left: 86%;
+top: 2%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #ffffff;
+}
+
+h5{
+
+position: fixed;
+width: 60%;
+height: 40px;
+left: 30%;
+top: 25%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #ffffff;
+}
+
+h1{
+
+  /* PlanBetter */
+
+  position: fixed;
+  width: 10%;
+  height: 5%;
+  left: 5%;
+  top: 0px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+
+  color: #FFFFFF;
+  }
+
+h2{
+  position: fixed;
+  width: 13%;
+  height: 90%;
+  left: 0.5%;
+  top: 10%;
+  background: #FFFFFF;
+}
+
+input[type=text], select {
+  width: 35%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  box-sizing: border-box;
+  position: fixed;
+  left:30%;
+  top:2%;
+}
+
+
+button{
+  /* Button2 */
+
+  box-sizing: border-box;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #147839;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+
+  position: absolute;
+  width: 8%;
+  height: 6%;
+
+
+  background: #FFFFFF;
+  border: 2px solid #147839;
+  border-radius: 6px;
+
+  }
+  button:hover{
+  /* Button */
+
+  width: 8%;
+  height: 6%;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  background: #147839;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  }
+
+
+  .button1{
+    position: fixed;left: 3%; top: 30%;
+  }
+  .button2{
+    position: fixed;left: 3%; top: 38%;
+  }
+  .button3{
+    position: fixed;left: 3%; top: 46%;
+  }
+  .button4{
+    position: fixed;left: 3%; top: 54%;
+  }
+  .button5{
+    position: fixed;left: 3%; top: 62%;
+  }
+  .button6{
+    position: fixed;left: 3%; top: 70%;
+  }
+
+
+
+
+h4{
+  /* Welcome back. Login with your data that you entered during your registration. */
+
+position: fixed;
+width: 40%;
+height: 53px;
+left: 20%;
+top: 15%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 24px;
+text-align: center;
+
+color: #ffffff;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .img1{
+
+    width: 20%;
+
+        }
+        h1{
+          top:7%;
+          left:0%;
+
+          font-size: 25px;
+        }
+        h2{top:20%;
+          width: 25%;}
+          button{
+            width: 21%;
+          }
+          .button1{
+            font-size: 15px;
+          }
+
+          h6{
+            /* Welcome back. Login with your data that you entered during your registration. */
+          width: 37%;
+
+          left: 68%;
+          font-size: 17px;
+          }
+          h4{
+          left: 30%;
+          top: 13%;
+          font-size: 36px;
+          }
+          button:hover{width: 21%;}
+          .button1:hover{
+            font-size: 15px;
+          }
+          h5{
+            width: 75%;
+            top:17%;
+            font-size: 13px;
+            left:26%;
+          }
+
+
+}

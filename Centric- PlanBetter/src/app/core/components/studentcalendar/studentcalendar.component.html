@@ -1,0 +1,26 @@
+<h1>PlanBetter</h1>
+<img src="./assets/images/logo.svg" class="img1">
+<h2>
+
+  <button class="button1" (click)="router.navigate(['/studentday']);">Day</button>
+  <button class="button2" >Questions</button>
+  <button class="button3" (click)="router.navigate(['/studenttimer']);">Timer</button>
+  <button class="button4" >Courses Summary</button>
+  <button class="button5" (click)="router.navigate(['/usermanual']);">Help</button>
+  <button class="button6" (click)="router.navigate(['/login']);">Sign Out</button>
+
+</h2>
+
+<input id="search" type="text" name="search">
+
+<div class="calendar">
+  <mat-card class="demo-inline-calendar-card">
+    <mat-calendar [(selected)]="selected"></mat-calendar>
+  </mat-card>
+  <h4>Selected date: {{selected|date :'EEEE, MMMM d, y'}}</h4>
+  <h6>
+    {{dateTime|date:'HH:mm:ss'}}
+    <br>
+    {{dateTime|date :'EEEE, MMMM d, y'}}
+    </h6>
+
