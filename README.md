@@ -2,6 +2,8 @@
 
 by 5Fantastici
 
+
+Application that will help students to organise better and improve their studying schedule for exams.
 Figma design:
 https://www.figma.com/file/axWy5360r9E3S9SR4S4Eoz/PlanBetter?node-id=3%3A5
 
